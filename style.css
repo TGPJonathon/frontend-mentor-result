@@ -1,0 +1,80 @@
+html {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.result,
+.summary {
+  width: 350px;
+  position: relative;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+}
+
+.result-header {
+  margin: 2rem 0;
+  color: hsl(241, 100%, 89%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.result-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1.2rem 0;
+}
+
+.result-description {
+  margin: 0;
+  margin-bottom: 3rem;
+  max-width: 225px;
+  text-align: center;
+  color: hsl(241, 100%, 89%);
+}
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.circle-total {
+  color: hsl(241, 100%, 89%);
+  font-size: 18px;
+}
+
+.percentage {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
